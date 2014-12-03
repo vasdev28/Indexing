@@ -383,5 +383,6 @@ class MyDatabase {
 		writeKeyHashMapToFile(hmId,idndx_path);
 		writeNonKeyHashMapToFile(hmLname,lnamendx_path);
 		writeNonKeyHashMapToFile(hmState,statendx_path);
+		System.out.println("Done");
 	}
 }
